@@ -251,5 +251,3 @@ var countDownDate = new Date(dateTime).getTime();
     
 
 }
-
-timeCoundown();
