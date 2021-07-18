@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo by shohan</title>
+    <link rel="icon" href="asset/icon.png" type="image/icon type">
+    <link rel="stylesheet" href="asset/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="asset/bootstrap.min.css">
+</head>
+<body class=" bg-dark">
+    
+    <div class="container mt-5 p-5">
+        <div class="card">
+            <div class="card-header p-4 bg-light-info shadow">
+                <form action="" id="todo-form">
+                    <p class="text-danger"></p>
+                        <div class="form-row col-12" id="todo-form">
+                            <div class="col-4">
+                              <input type="text" class="form-control" id="note" placeholder="Task Name">
+                            </div>
+                            <div class="col-2">
+                              <input type="text" class="form-control"  id="c_name" placeholder="Client Name">
+                            </div>
+                            <div class="col-2">
+                              <input type="date" class="form-control" id="date">
+                            </div>
+                            <div class="col-2">
+                              <input type="time" class="form-control" id="time" >
+                            </div>
+                            <div class="col-2">
+                                <button type="submit" class="btn btn-warning"><i class="fa fa-plus" aria-hidden="true"> Add</i></button>
+                            </div>
+                           
+                        </div>
+
+                </form>
+            </div>
+            <div class="card-body">
+                <h4 class=" text-secondary" id="no_task" style="margin-right: 40%; margin-left: 40%;"></h4>
+                <ul class="list-group" id="todo_list_show">
+                 
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="asset/script.js"></script>
+</body>
+</html>
